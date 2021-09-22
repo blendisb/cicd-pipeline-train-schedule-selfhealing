@@ -1,5 +1,4 @@
-pipeline 
-   {
+  pipeline {
     agent any
     environment {
         DOCKER_IMAGE_NAME = "blissdve/train-schedule"
